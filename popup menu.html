@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+  <h1>Popup Menu Example</h1>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <style>
+      .popup-menu {
+        position: relative;
+        display: inline-block;
+      }
+  
+      .popup-menu-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 10px;
+        z-index: 1;
+      }
+  
+      .popup-menu:hover .popup-menu-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Popup Menu Example</h1>
+  
+    <div class="popup-menu">
+      <button onclick="toggleMenu()">Open Menu</button>
+      <div class="popup-menu-content">
+        <a href="#">Option 1</a><br>
+        <a href="#">Option 2</a><br>
+        <a href="#">Option 3</a>
+      </div>
+    </div>
+  
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector('.popup-menu-content');
+        menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+      }
+    </script>
+  </body>
+  </html>
+  
+  
+</body>
+</html>

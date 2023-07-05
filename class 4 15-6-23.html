@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <!--Todays Clas is about forms chapter # 7 of the book-->
+</head>
+
+<body>
+    <!--action ka kaam he k aap ka data kahan store hoga-->
+    <!-- <h1>Html Froms</h1>
+    <form action="http://www.example.com/subscribe.php" 
+method="get">
+<p>This is where the form controls will appear.
+ </p>
+</form> -->
+
+    <form action="http://www.example.com/login.php" method="get">
+
+        <p>Name<input type="text" name="username"></p>
+        <p>number<input type="number" name="usernumber"></p>
+
+        <p> password<input type="password" name="userpassword"></p>
+        <p>Choose file<input type="file" value="upload" name="userfle"></p>
+        <input type="email" name="useremail">
+        <input type="date" name="userdate">
+
+        <br>
+        <input type="radio" name="fav_teacher" value="sadiq" checked> Sadiq
+        <input type="radio" name="fav_teacher" value="faizan"> Faizan
+        <input type="radio" name="fav_teacher" value="noman"> Noman
+        <input type="radio" name="fav_teacher" value="ihsan"> Ihsan
+        <input type="radio" name="fav_teacher" value="Muhammad Ali"> Muhammad Ali
+        <br>
+
+        <input type="checkbox" name="fav_teacher" value="faizan"> Faizan
+        <input type="checkbox" name="fav_teacher" value="noman"> Noman
+        <input type="checkbox" name="fav_teacher" value="ihsan"> Ihsan
+        <input type="checkbox" name="fav_teacher" value="Muhammad Ali"> Muhammad Ali
+        <input type="submit" value="submit">
+        <br><br><br>
+        <!--drop down list-->
+        <select name="City" id="">
+            <option value="khi" selected>Karachi</option>
+            <option value="LHr">lahore</option>
+            <option value="mul">multan</option>
+            <option value="qu">quetta</option>
+            <option value="isb">Islamabad</option>
+
+        </select>
+
+        <!--multiple selete box-->
+
+ <select name="City" id="" multiple><!--size se jitne show kerwane hen wo hongay-->
+            <option value="khi" selected>Karachi</option>
+            <option value="LHr">lahore</option>
+            <option value="mul">multan</option>
+            <option value="qu">quetta</option>
+            <option value="isb">Islamabad</option>
+
+<button><img src="" alt=""></button>
+
+    </form>
+    <br><br><br>
+    <textarea name="" id="" cols="30" rows="10">hello</textarea>
+
+    <!-- <form action="http://www.example.com/login.php">
+    <p>Username:
+     <input type="text" name="username" size="15" 
+     maxlength="30" />
+    </p>
+    <input type="submit" value="submit"> -->
+    <!--size is box size
+    maxlenght is the text length limit
+    get means data kese bhejna he-->
+
+
+
+
+
+</body>
+
+</html>
