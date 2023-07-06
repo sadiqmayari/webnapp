@@ -3,3 +3,20 @@ p {
   color: white;
   font-size: 28px;
 }
+a{
+  float: left;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  background-color:royalblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+
+}
+a:hover{
+  background-color: rgb(196, 101, 101);
+
+
+}
